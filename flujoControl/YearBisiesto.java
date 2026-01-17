@@ -1,4 +1,4 @@
-package FlujoDeControl;
+package flujoControl;
 import java.util.Scanner;
 class YearBisiesto {
     public static void main(String[] args) {

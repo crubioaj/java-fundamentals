@@ -1,4 +1,4 @@
-package Matrices;
+package algebralineal;
 import java.util.Arrays;
 
 public class UnirMatrices {

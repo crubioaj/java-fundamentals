@@ -1,4 +1,4 @@
-package FlujoDeControl;
+package flujoControl;
 import java.util.Scanner;
 
 public class Calculadora {

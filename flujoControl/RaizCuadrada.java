@@ -1,4 +1,4 @@
-package FlujoDeControl;
+package flujoControl;
 public class RaizCuadrada {
     public static void main(String[] args){
         double a = 5, b=8, c=3;

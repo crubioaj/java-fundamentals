@@ -1,4 +1,4 @@
-package ProyectosBasicos;
+package proyectosBasicos;
 import java.util.Scanner;
 import java.util.Arrays;
 import java.util.InputMismatchException;
@@ -64,7 +64,7 @@ public class Tres_en_linea{
         Scanner entrada = new Scanner(System.in);
 
         do{
-            System.out.print("Selecciona con que jugaras X o O: ");
+            System.out.print("=== SELECCIONA CON QUE JUGARAS X o O: === ");
             humano = entrada.next();
             if (!humano.equals("X") && !humano.equals("x") & !humano.equals("O") && !humano.equals("o")) System.out.println("Entrada no valida");
         }while(!humano.equals("X") && !humano.equals("x") & !humano.equals("O") && !humano.equals("o"));
@@ -105,15 +105,15 @@ public class Tres_en_linea{
                         boolean filaValida = false;
                         do {
                             try {
-                                System.out.print("Ingresa la fila donde quieras poner tu ficha: ");
+                                System.out.print(" Ingresa la fila donde quieras poner tu ficha: ");
                                 fila = entrada.nextInt();
                                 if (fila >= 1 && fila <= 3) {
                                     filaValida = true;
                                 } else {
-                                    System.out.println("La fila debe ser entre 1-3");
+                                    System.out.println(" La fila debe ser entre 1-3");
                                 }
                             } catch (InputMismatchException e) {
-                                System.out.println("Debes ingresar un número entero");
+                                System.out.println(" Debes ingresar un número entero");
                                 entrada.nextLine();
                             }
                         } while (!filaValida);
@@ -163,10 +163,10 @@ public class Tres_en_linea{
         }
 
         if (jugadas_posibles.length == 0){
-            System.out.println("EL JUEGO TERMINA EN EMPATE");
+            System.out.println("=== EL JUEGO TERMINA EN EMPATE ===");
         }else{
             imprimir_tablero(tablero);
-            System.out.println("TENEMOS UN GANADOR");
+            System.out.println("=== TENEMOS UN GANADOR ===");
         }
         entrada.close();
     }

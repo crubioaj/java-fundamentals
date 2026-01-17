@@ -1,4 +1,4 @@
-package FlujoDeControl;
+package flujoControl;
 public class RedondearNumeros{
     public static void main(String[] args) {
         double numero = 12345.27263;

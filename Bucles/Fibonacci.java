@@ -1,4 +1,4 @@
-package Bucles;
+package bucles;
 import java.util.Arrays;
 import java.util.Scanner;
 public class Fibonacci{

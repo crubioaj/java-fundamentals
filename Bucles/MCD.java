@@ -1,4 +1,4 @@
-package Bucles;
+package bucles;
 import java.util.Scanner;
 public class MCD {
     public static void main(String[] args) {

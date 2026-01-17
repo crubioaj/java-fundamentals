@@ -1,4 +1,4 @@
-package FlujoDeControl;
+package flujoControl;
 
 public class CambioVariable {
     public static void main(String[] args){

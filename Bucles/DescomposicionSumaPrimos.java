@@ -1,4 +1,4 @@
-package Bucles;
+package bucles;
 public class DescomposicionSumaPrimos{
     public static boolean primo(int numero){
         if (numero <= 1) return false;

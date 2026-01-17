@@ -1,4 +1,4 @@
-package ProyectosBasicos;
+package proyectosBasicos;
 import java.util.Arrays;
 
 public class GenerarTrianguloPascal {

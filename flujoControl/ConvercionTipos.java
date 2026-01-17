@@ -1,4 +1,4 @@
-package FlujoDeControl;
+package flujoControl;
 public class ConvercionTipos {
     public static void main(String[] args) {
         //de string a char y de char a string

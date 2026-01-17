@@ -1,4 +1,4 @@
-package Bucles;
+package bucles;
 public class Palindromo{
     public static void main(String[] args){
         String palabra = "reconocr";

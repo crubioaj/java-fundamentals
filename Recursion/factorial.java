@@ -1,4 +1,4 @@
-package Recursion;
+package recursion;
 public class factorial {
     public static int factorial_recursiva(int n){
         if (n==0) return 1;

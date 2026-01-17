@@ -1,4 +1,4 @@
-package Recursion;
+package recursion;
 public class Binario {
     private static String decimal_binario(int numeroDecimal){
         if (numeroDecimal == 1) return "1";

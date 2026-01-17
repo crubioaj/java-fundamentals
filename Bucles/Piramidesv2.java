@@ -1,4 +1,4 @@
-package Bucles;
+package bucles;
 public class Piramidesv2 {
     public static void main(String[] args) {
         String fila;

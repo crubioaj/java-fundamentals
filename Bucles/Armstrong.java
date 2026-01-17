@@ -1,4 +1,4 @@
-package Bucles;
+package bucles;
 import java.util.Scanner;
 public class Armstrong {
     // un numero de Armstrong es aquel que es igual a la suma de cada uno de sus digitos elevada al numero de digitos
