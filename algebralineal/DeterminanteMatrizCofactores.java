@@ -1,5 +1,7 @@
 package algebralineal;
 
+//Revisar el codigo hay mucho margen de mejora
+
 public class DeterminanteMatrizCofactores {
     private static double[][] transpuesta(double[][] matriz){
         double[][] newmatriz = new double[matriz.length][matriz.length];
